@@ -1,5 +1,5 @@
 = Source code
 
 Include your challenge source code here. 
-This can a source code for the host that should be run or 
-the program that was compiled.
+This can be a source code for the host that should be run or 
+the program that the binary was compiled from.
