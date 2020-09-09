@@ -1,0 +1,61 @@
+= Tips for challenge author
+
+SecTalks CTFs are crowd sourced. This makes CTFs quite fun and evolving over
+the time. This section has some useful information for creating SecTalks CTFs. 
+
+== What to provide and when
+. Fork the following challenge template: https://github.com/sectalks/ctf_template
+. Each directory contains a readme file, explaining what we need.
+. *Share your repository with us at least a week before the event*.
+
+== Format
+
+* CTF can be in two format: 60min and homework style (where people play until next month session).
+* Choose an informative title for your CTF.
+* Write a good description for your CTF. Avoid ambiguous stories as it makes solving the challenge more difficult and less fun.
+* Categorise your CTF.
+** e.g. Web, Network, Forensics, DevOps, Linux, RE, OSINT, Algorithm, Puzzle, etc. 
+* Give your CTF a difficulty point.
+** 0-100 Trivial
+** 100-200 easy
+** 200-400 intermediate
+** 500-999 difficult
+** Dynamic: a fix point as challenge get solved, points decreases
+* Give the following information to your SecTalks organisers:
+** Title
+** Description
+** Points
+** Flags
+** Hints and penalty percentage for each hint
+** Hostname and port numbers, binary files and source codes (if relevant)
+* You want to aim for a CTF that is easy to intermediate difficulty.
+** For 60min CTF: Avoid going super hardcore, remember people only have an hour to complete it.
+
+== Flag
+
+* Nobody likes guess work, be clear in the objective of each flag.
+* Flags should have a clear format so it is easy to spot i.e. sectalks{FLAG}
+* Have more than one flag, this helps teams to be on the right track.
+** Have a give-away first flag. During the session, walkthrough the give-away flag. This make people more familiar with your challenges and engage them to solve the rest of it.
+** Set gradual flags, easy to hard. The CTF challenges are also for people to learn so try and make the first one/two flags easy enough for most people to find.
+
+== Hints
+
+* Plan to have 3-4 hints during the CTF to help people with finding the flags.
+* Unlike the flags, the hint should start off fairly vague and get more specific so we can keep the CTF to no more than an hour. The idea being that as you give away the last hint most people should be able to find all or most of the flags. We also want everyone at roughly the same point during the CTF.
+* From the second hint onwards you should pretty much give away how to find the first flag, third hint gives away how to find the second flag and so on. This also helps less skilled attendees learn while doing the CTF.
+
+== Infrastructure
+* Try and design a CTF that can be done offline. However, we have a game servers that you can host your online challenge
+* Please test your CTF before SecTalks to make sure it works the way you think it should. If you run a Linux process use ‘supervised’ to restart the process if it is killed unexpectedly.
+* Remember everyone is about to try and break whatever you give them so make sure your CTF is also fairly stable and does what you're expecting it to.
+
+== CTF resources
+* Archive of past SecTalks CTFs: https://github.com/sectalks/sectalks
+* Good collection of vulnerable VMs: https://www.vulnhub.com/ 
+* Archive of CTFs and writeups: https://github.com/ctfs 
+
+Thank you!
+
+If you have any questions, please feel free to contact your SecTalks organising team.
+

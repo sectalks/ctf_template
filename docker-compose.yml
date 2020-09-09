@@ -1,0 +1,20 @@
+# If you challenge needs multiple containers
+# Create a docker-compose.yml file
+# Here is just an example
+version: '3'
+
+services:
+
+  challenge_name:
+    build: ./app/
+    depends_on:
+      - db
+    ports:
+      - "80:80"
+
+  db:
+    image: postgres
+      environment:
+        - POSTGRES_DB=postgres
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=postgres

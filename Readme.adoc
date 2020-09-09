@@ -1,0 +1,65 @@
+= Your challenge Title
+
+[NOTE]
+--
+Please first read link:guideline.adoc[]
+--
+
+Your challenge description, author name and flag format. 
+Markdown is allowed.
+
+== Category
+
+* Web, 
+* Network, 
+* Forensics, 
+* DevOps, 
+* Crypto, 
+* RE, 
+* OSINT, 
+* Algorithm, 
+* Puzzle, 
+* etc. 
+
+== Points
+
+* 0-100 Trivial
+* 100-200 easy
+* 200-400 intermediate
+* 500-999 difficult
+* Dynamic: a fix point as challenge get solved, points decreases
+
+== Flag
+
+`sectalks{XYZ}`
+
+== Hints
+
+* Hint description
+* Hint % penalty
+
+== How to run
+
+[source]
+----
+# Explain how to build and run your challenge
+# What ports must be open 
+* What permission must be set. 
+# or put them all in a docker-compose.yml file
+docker-compose up
+----
+
+Naviagate to http://localhost:9090/
+
+== Solution
+
+A walkthrough of how to solve the challenge.
+
+== Troubleshooting
+
+A guide on possible infrastructure or program issues that we should be aware
+and be able to troubleshoot.
+
+== License
+
+See link:LICENSE[]

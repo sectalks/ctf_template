@@ -1,0 +1,6 @@
+= Static files
+
+In this directory, provide any files that needs
+to be attached to you challenge in the CTF dashboard.
+
+For example, Forensic challenge may have `pcap` files.
